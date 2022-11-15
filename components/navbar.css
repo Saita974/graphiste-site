@@ -1,0 +1,38 @@
+.container-navbar {
+  background-color: black;
+  width: 100%;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0 8px 0;
+  position: fixed;
+  top: 0px;
+  border-bottom: 1.5px;
+  border-color: white;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.container-navbar a {
+  font-size: 19.2px;
+  color: white;
+  text-decoration: none;
+}
+
+
+a:hover {
+  color: white;
+  font-style: italic;
+  text-decoration: none;
+}
+
+#name-navbar {
+  margin-left: 16px;
+}
+
+#labo-navbar {
+  margin-right: 16px;
+  margin-left: 32px;
+}

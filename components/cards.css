@@ -1,0 +1,47 @@
+.container {
+  margin-top: 85px;
+  width: 100%;
+}
+
+.card-container {
+  border-top: 1px solid black;
+  padding: 4px 0 3px 4px;
+  margin: auto 16px auto 16px;
+}
+
+.card-container a {
+  color: black;
+  text-decoration: none;
+  font-size: 19px;
+  display: block;
+}
+
+.tab {
+  float: right;
+  font-size: 11px;
+  padding-top: 4px;
+}
+
+body {
+  margin: 0;
+}
+
+/* image cachées */
+
+.dropdown-img {
+  display: none;
+}
+
+img {
+  height: 100px;
+  object-fit: cover;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin: 10px 10px 5px auto;
+}
+
+/* image présente */
+
+a:hover + .dropdown-img{
+  display: block;
+}

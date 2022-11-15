@@ -21,6 +21,9 @@
   text-decoration: none;
 }
 
+a {
+  font-family: 'FT88-Regular', monospace, sans-serif;
+}
 
 a:hover {
   color: white;

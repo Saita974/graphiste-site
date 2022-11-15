@@ -1,1 +1,8 @@
-@import "./components/navbar.css"
+@import "/components/navbar.css";
+@import "/fonts/fonts.css";
+
+@font-face {
+	font-family: "FT-88";
+	src: url("/fonts/FT-88-Regular.otf") format("otf"),
+		url("/fonts/FT-88-Regular.ttf") format("truetype"),
+}

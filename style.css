@@ -65,3 +65,21 @@ footer {
   text-decoration: none;
   padding-left: 15px;
 }
+
+/* show des projets lanuitverte.html */
+.container-show {
+  margin: auto 16px auto 16px;
+}
+
+.show-img {
+  width: 49%;
+  height: auto;
+  display: inline-block;
+  justify-content: space-between;
+  margin: 0 0 7.5px 7.5px;
+}
+
+h1 {
+  font-size: 60px;
+  font-family: 'FT88-Regular', monospace, sans-serif;
+}

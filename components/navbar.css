@@ -8,8 +8,7 @@
   padding: 8px 0 8px 0;
   position: fixed;
   top: 0px;
-  border-bottom: 1.5px;
-  border-color: white;
+  border-bottom: 1.5px solid white;
   right: 0;
   left: 0;
   bottom: 0;
@@ -33,6 +32,10 @@ a:hover {
 
 #name-navbar {
   margin-left: 16px;
+}
+
+#contact-navbar {
+  margin-left: 32px;
 }
 
 #labo-navbar {

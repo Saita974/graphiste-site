@@ -83,3 +83,68 @@ h1 {
   font-size: 60px;
   font-family: 'FT88-Regular', monospace, sans-serif;
 }
+
+
+/* responsive */
+
+/* @media screen and (max-width: 768px) {
+  #labo-navbar {
+    display: none;
+  }
+
+  #contact-navbar {
+    margin-right: 32px;
+  }
+} */
+
+@media only screen and (min-device-width : 1px) and (max-device-width : 768px) {
+  #labo-navbar {
+    display: none;
+  }
+
+  .container {
+    margin-top: 70px;
+  }
+
+  .container-navbar a {
+    margin-right: 16px;
+  }
+
+  .container-biography {
+    width: auto;
+    padding-left: 20;
+    display: flexbox;
+    flex-wrap: wrap;
+  }
+
+  .tab {
+    display: none;
+  }
+
+  a:not(:hover) + .dropdown-img {
+    display: block;
+  }
+
+  img {
+    width: 100%;
+    height: inherit;
+  }
+
+  .hidden-image {
+    display: none;
+  }
+
+  h2 {
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+
+  #arrow-top {
+    font-size: 30px;
+
+  }
+
+   .contact {
+    margin-left: 35px;
+  }
+}
